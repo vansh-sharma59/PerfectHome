@@ -1,13 +1,70 @@
-body {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500;700&display=swap");
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+}
+
+/* css for all pages */
+
+.container {
+  max-width: 124rem;
+  margin: 0 auto;
+}
+
+.hero-main {
+  background-image: url(./assets/home-main.jpg);
+  height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.interior-main {
+  background-image: linear-gradient(to top, #272625 100%, rgba(0, 0, 0, 0) 20%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100% 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .interior-main {
+    background-size: 100% 65%;
+  }
+}
+
+.banner-main {
+  background-image: url(./assets/banner-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.swip {
+  background-image: linear-gradient(to top, #a0684a 50%, rgba(0, 0, 0, 0) 20%);
+}
+
+.reacticon {
+  font-size: 2.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .reacticon {
+    font-size: 4rem;
+  }
 }
