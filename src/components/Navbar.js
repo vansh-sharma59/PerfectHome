@@ -12,6 +12,9 @@ function Navbar() {
         <Link to={"/apartments"} className="mr-12">
           Properties
         </Link>
+        <Link to={"/about"} className="mr-12">
+          AboutUs
+        </Link>
         <Link to={"/contact"} className="mr-12">
           Contact
         </Link>

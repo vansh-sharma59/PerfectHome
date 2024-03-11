@@ -4,6 +4,7 @@ import Apartments from './pages/Apartments';
 import Information from './pages/Information';
 import { Route, Routes} from "react-router-dom";
 import Navbar from './components/Navbar';
+import About from './pages/About'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Route path="/contact" element={<Contact />} />
       <Route path="/apartments" element={<Apartments />} />
       <Route path="/information/:id" element={<Information />} />
+      <Route path="/about" element={<About />} />
       </Routes>
     </div>
   );
