@@ -5,8 +5,12 @@ import Information from './pages/Information';
 import { Route, Routes} from "react-router-dom";
 import Navbar from './components/Navbar';
 import About from './pages/About'
+import LocomotiveScroll from 'locomotive-scroll';
 
 function App() {
+
+const locomotiveScroll = new LocomotiveScroll();
+
   return (
     <div>
       <Navbar />

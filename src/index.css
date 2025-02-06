@@ -26,13 +26,17 @@ body {
   margin: 0 auto;
 }
 
-.hero-main {
+.hero-img {
+  scale: 1.1;
+}
+
+/* .hero-main {
   background-image: url(./assets/home-main.jpg);
   height: 90vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-}
+} */
 
 .interior-main {
   background-image: linear-gradient(to top, #272625 100%, rgba(0, 0, 0, 0) 20%);
