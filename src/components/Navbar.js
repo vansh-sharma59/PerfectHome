@@ -8,11 +8,11 @@ function Navbar() {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="py-5 fixed top-0 left-0 w-[100%] bg-black/35 backdrop-blur-lg z-50 text-white flex justify-between items-center">
+    <div className="py-5 fixed top-0 left-0 w-[100%] bg-black/35 backdrop-blur-lg z-50 text-white flex justify-between items-center font-[Montserrat] ">
       <Link to={"/"}>
         <img src={Logo} alt="logo" className="w-[10rem] ml-12 sm:w-[15rem]" />
       </Link>
-      <div className="hidden md:flex items-center text-xl font-semibold sm:text-2xl">
+      <div className="hidden md:flex items-center text-xl font-light sm:text-2xl">
         <Link to={"/apartments"} className="mr-12">
           Properties
         </Link>

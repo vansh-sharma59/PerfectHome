@@ -12,7 +12,7 @@ function Accordion({ title, answer }) {
       >
         <span className="text-xl font-medium lg:text-2xl">{title}</span>
         <svg
-          className="fill-[#754400] shrink-0 ml-8"
+          className="fill-[#C88B67] shrink-0 ml-8"
           width="16"
           height="16"
           xmlns="http://www.w3.org/2000/svg"

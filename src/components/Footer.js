@@ -2,7 +2,7 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
 
 function Footer() {
   return (
-    <div className="bg-[#20150d] text-white">
+    <div className="bg-[#19130B] text-white">
       <div className=" p-10 md:flex md:justify-around">
         <div>
           <h2 className="text-3xl my-4 md:text-5xl">FAQ</h2>

@@ -2,7 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500;700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500;700&display=swap"); */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 * {
   margin: 0;
@@ -15,7 +18,8 @@ html {
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: cormorant garamond, serif;
   position: relative;
 }
 
@@ -39,7 +43,7 @@ body {
 } */
 
 .interior-main {
-  background-image: linear-gradient(to top, #272625 100%, rgba(0, 0, 0, 0) 20%);
+  background-image: linear-gradient(to top, #0B0606 100%, rgba(0, 0, 0, 0) 20%);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -53,10 +57,10 @@ body {
 }
 
 .banner-main {
-  background-image: url(./assets/banner-background.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-image: url(./assets/pattern.png);
+  /* background-size: cover; */
+  background-repeat: repeat;
+  /* background-position: center; */
 }
 
 .swip {
@@ -99,4 +103,8 @@ body {
     grid-column: 2/4;
     height: 30rem;
   }
+}
+
+.neighbour{
+  scale: 1.5;
 }

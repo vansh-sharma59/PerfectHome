@@ -1,10 +1,10 @@
 import { FaArrowRightLong } from "react-icons/fa6";
 import { Link } from "react-router-dom";
-import Home from "../assets/home-main.jpg";
+import Home from "../assets/home-main-2.jpg";
 
 function Hero() {
   return (
-    <div className="hero-main  flex flex-col justify-center items-center w-[100%] h-[100vh] relative">
+    <div className="hero-main  flex flex-col justify-center items-center w-[100%] h-[80vh] lg:h-[100vh] relative font-[Montserrat]">
       {/* <div className="w-[100%] h-[100%] bg-black z-10 absolute opacity-30"></div> */}
       <div className=" w-[100%] h-[100%] overflow-hidden absolute">
         <img
@@ -15,10 +15,10 @@ function Hero() {
           className="h-[100%] w-[100%] object-cover hero-img"
         />
       </div>
-      <h1 className=" text-5xl text-white font-[200] pl-12 z-40 sm:text-7xl sm:pl-20 lg:text-9xl lg:pl-40">
+      <h1 className=" text-5xl text-white font-[200] pl-12 z-40 sm:text-7xl sm:pl-20 md:text-[7rem] lg:text-[8rem] xl:text-[9rem] lg:pl-40">
         PERFECT HOME
       </h1>
-      <h5 className=" text-3xl text-white font-[200] pl-12 z-40 sm:text-5xl sm:pl-20 lg:text-7xl lg:pl-40">
+      <h5 className=" text-3xl text-white font-[200] pl-12 z-40 sm:text-5xl sm:pl-20 md:text-6xl lg:text-7xl xl:text-8xl lg:pl-40">
         OUR MODERN LIVING QUARTERS
       </h5>
       <Link
