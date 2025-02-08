@@ -109,3 +109,8 @@ body {
   background-image: url(./assets/pattern.png);
   background-repeat: repeat;
 }
+
+.team-main{
+  background-image: url(./assets/home-1-background-patern-3.png);
+  background-position: cover;
+}

@@ -7,11 +7,11 @@ import Pick4 from "../assets/pick4.jpg";
 function Picksgrid() {
   return (
     <div className="m-[7rem]">
-      <h1 className="text-4xl text-center font-bold mb-[2rem] sm:text-5xl lg:text-6xl">
+      <h1 className="text-4xl text-center mb-[2rem] sm:text-5xl md:text-6xl lg:text-7xl">
         Reimgining real estate to <br />
-        make it easier tounlock.
+        make it easier to unlock.
       </h1>
-      <h2 className="text-xl text-justify p-3 text-[#754400] max-w-[770px] m-auto font-medium md:text-2xl lg:text-3xl">
+      <h2 className="text-xl text-center p-3 text-[#C88B67] max-w-[770px] m-auto font-medium md:text-2xl lg:text-3xl">
         Embark on a Real Estate journey with PerfectHome - A Journey marked by
         professionalism, innovation, and success. We invite you to explore our
         portfolio, engage with our team, and discover the possibilites the

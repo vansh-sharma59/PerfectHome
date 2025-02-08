@@ -3,9 +3,9 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
 function Footer() {
   return (
     <div className="bg-[#19130B] text-white">
-      <div className=" p-10 md:flex md:justify-around">
+      <div className=" px-10 py-10 md:flex md:justify-around lg:py-[7rem]">
         <div>
-          <h2 className="text-3xl my-4 md:text-5xl">FAQ</h2>
+          <h2 className="text-3xl my-4 md:text-5xl text-[#C88B67]">FAQ</h2>
           <div className="md:text-2xl">
             <p>How to schedule a viewing?</p>
             <p>Which pricing plan do i pick?</p>
@@ -14,7 +14,9 @@ function Footer() {
           </div>
         </div>
         <div>
-          <h2 className="text-3xl my-4 md:text-5xl">USEFUL LINKS</h2>
+          <h2 className="text-3xl my-4 md:text-5xl text-[#C88B67]">
+            USEFUL LINKS
+          </h2>
           <div className="md:text-2xl">
             <p>News</p>
             <p>Projcts</p>
@@ -23,7 +25,7 @@ function Footer() {
           </div>
         </div>
         <div>
-          <h2 className="text-3xl my-4 md:text-5xl">ENQUIRE</h2>
+          <h2 className="text-3xl my-4 md:text-5xl text-[#C88B67]">ENQUIRE</h2>
           <div className="md:text-2xl">
             <input
               type="text"
@@ -40,7 +42,7 @@ function Footer() {
         </div>
       </div>
 
-      <div className="flex justify-center py-8 border-b-[1px]">
+      <div className="flex justify-center py-8 border-b-[1px] text-[#C88B67]">
         <FaFacebook className="text-[2.5rem] mx-2" />
         <FaInstagram className="text-[2.5rem] mx-2" />
         <FaLinkedin className="text-[2.5rem] mx-2" />

@@ -4,17 +4,18 @@ import Founder from "../assets/founder.jpg";
 function Note() {
   return (
     <div className="m-[7rem] lg:m-[9rem]">
-      <h1 className="text-4xl font-bold text-center ml-3 mb-[2rem] sm:text-5xl md:text-6xl">
+      <h1 className="text-4xl text-[#C88B67] text-center ml-3 mb-[2rem] sm:text-5xl md:text-6xl lg:text-7xl tracking-wider">
         A NOTE FROM THE FOUNDER.
       </h1>
       <div className="lg:flex lg:items-center lg:justify-center container lg:mt-[6rem]">
         <div className="lg:w-[50%]">
-          <div className="w-[20rem] h-[28rem] overflow-hidden m-auto md:w-[25rem] md:h-[35rem] lg:w-[35rem] lg:h-[50rem] box">
+          <div className="w-[20rem] h-[28rem] m-auto md:w-[25rem] md:h-[35rem] lg:w-[35rem] lg:h-[50rem] box relative">
             <img
               src={Founder}
               alt="Founder"
               className="w-[100%] h-[100%] object-cover rounded-xl"
             />
+            <div className="w-[100%] h-[100%] absolute bg-[#C88B67] top-5 left-4 rounded-xl -z-10"></div>
           </div>
         </div>
         <div className="mt-4 flex items-start">

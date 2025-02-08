@@ -6,6 +6,7 @@ import Schedule from "../components/Schedule";
 import Neighborhood from "../components/Neighborhood";
 import Banner from "../components/Banner";
 import Footer from "../components/Footer";
+import Picksgrid from "../components/Picksgrid";
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
       <Schedule />
       <Neighborhood />
       <Banner />
+      <Picksgrid />
       <Footer />
     </div>
   );
