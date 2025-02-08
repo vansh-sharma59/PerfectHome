@@ -2,10 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500;700&display=swap"); */
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
   margin: 0;
@@ -18,7 +16,6 @@ html {
 }
 
 body {
-  /* font-family: "Montserrat", sans-serif; */
   font-family: cormorant garamond, serif;
   position: relative;
 }
@@ -34,16 +31,8 @@ body {
   scale: 1.1;
 }
 
-/* .hero-main {
-  background-image: url(./assets/home-main.jpg);
-  height: 90vh;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-} */
-
 .interior-main {
-  background-image: linear-gradient(to top, #0B0606 100%, rgba(0, 0, 0, 0) 20%);
+  background-image: linear-gradient(to top, #0b0606 100%, rgba(0, 0, 0, 0) 20%);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -58,13 +47,11 @@ body {
 
 .banner-main {
   background-image: url(./assets/pattern.png);
-  /* background-size: cover; */
   background-repeat: repeat;
-  /* background-position: center; */
 }
 
 .swip {
-  background-image: linear-gradient(to top, #a0684a 50%, rgba(0, 0, 0, 0) 20%);
+  background-image: linear-gradient(to top, #0b0606 60%, rgba(0, 0, 0, 0) 20%);
 }
 
 .reacticon {
@@ -105,15 +92,20 @@ body {
   }
 }
 
-.neighbour{
+.neighbour {
   scale: 1.5;
 }
 
-.contact-main{
+.contact-main {
   background-image: url(./assets/pattern.png);
   background-repeat: repeat;
 }
-.apartment-main{
+.apartment-main {
+  background-image: url(./assets/pattern.png);
+  background-repeat: repeat;
+}
+
+.description-banner {
   background-image: url(./assets/pattern.png);
   background-repeat: repeat;
 }
