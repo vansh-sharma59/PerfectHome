@@ -108,3 +108,12 @@ body {
 .neighbour{
   scale: 1.5;
 }
+
+.contact-main{
+  background-image: url(./assets/pattern.png);
+  background-repeat: repeat;
+}
+.apartment-main{
+  background-image: url(./assets/pattern.png);
+  background-repeat: repeat;
+}

@@ -1,5 +1,4 @@
 import { useEffect, useState, useLayoutEffect } from "react";
-import { FaBed, FaBath, FaChartArea } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import millify from "millify";
 import Loading from "../components/Loading";
@@ -51,9 +50,9 @@ function Apartments() {
   return isLoading ? (
     <Loading />
   ) : (
-    <div className=" bg-[#f6f5f5] pt-[2rem] mt-[5rem]">
+    <div className="pt-[2rem] mt-[5rem] apartment-main">
       <div className="container">
-        <h1 className="text-4xl font-medium p-2 mb-5 text-center text-[#754400] md:text-6xl md:mb-14 lg:text-7xl">
+        <h1 className="text-4xl font-medium p-2 m-7 text-center text-[#C88A65] tracking-widest md:text-6xl md:m-20 lg:text-7xl">
           Browse Through Our Collection
         </h1>
         <div className="grid grid-cols-1 gap-5 content-center justify-items-center md:grid-cols-2 lg:grid-cols-3">
@@ -64,48 +63,19 @@ function Apartments() {
                 style={{ textDecoration: "none" }}
                 key={item.id}
               >
-                <div className="w-[28rem] mb-10 bg-white rounded-xl transition ease-in-out hover:scale-105 md:w-[32rem] lg:mb-14">
-                  <div className="w-[28rem] h-[19rem] mb-2 md:w-[32rem]">
+                <div className="w-[28rem] p-2 mb-10 rounded-xl md:w-[35rem] xl:w-[38rem] lg:mb-14">
+                  <div className="w-[28rem] h-[19rem] mb-2 md:w-[35rem] md:h-[25rem] xl:w-[38rem] xl:h-[28rem] overflow-hidden">
                     <img
                       src={item.coverPhoto.url}
                       alt="apartment"
-                      className="w-[100%] h-[100%] object-cover rounded-t-xl"
+                      className="w-[100%] h-[100%] object-cover hover:scale-105 transition ease-in-out"
                     />
                   </div>
                   <div className="p-2 md:p-4">
-                    <h2 className="text-xl font-medium text-[#754400] md:text-2xl md:mb-2">
-                      {item.title.length > 34
-                        ? item.title.slice(0, 35) + `...`
-                        : item.title}
-                    </h2>
-                    <h5 className="text-[1.3rem] md:text-[1.8rem]">
+                    <h5 className="text-[1.3rem] md:text-[2.1rem] text-center tracking-wide">
                       {item.agency.name}
                     </h5>
-                    <div className="flex border-b-[1px] border-black p-1 justify-between">
-                      <p className="flex items-center text-xl md:text-[1.5rem]">
-                        {" "}
-                        <FaBed
-                          size={18}
-                          className="text-[#754400]"
-                        /> &nbsp; {item.rooms}
-                      </p>
-                      <p className="flex items-center text-xl md:text-[1.5rem]">
-                        {" "}
-                        <FaBath
-                          size={18}
-                          className="text-[#754400]"
-                        /> &nbsp; {item.baths}
-                      </p>
-                      <p className="flex items-center text-xl md:text-[1.5rem]">
-                        {" "}
-                        <FaChartArea
-                          size={18}
-                          className="text-[#754400]"
-                        />{" "}
-                        &nbsp; {millify(item.area)} sqft
-                      </p>
-                    </div>
-                    <p className="py-2 text-xl md:text-[1.5rem]">
+                    <p className="py-2 text-xl md:text-[1.8rem] text-center text-[#C88A65] tracking-wide">
                       AED {millify(item.price)}
                     </p>
                   </div>
